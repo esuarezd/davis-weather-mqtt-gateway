@@ -1,0 +1,18 @@
+[project]
+name = "davis-weather-mqtt-gateway"
+version = "0.1.0"
+description = "A Python gateway that reads Davis Vantage Pro2 data and publishes it to an MQTT broker."
+authors = [
+  { name="Edison Suárez", email="e.suarezd@uniandes.edu.co" }
+]
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.9"
+dependencies = [
+  "paho-mqtt",
+  "PyYAML"
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
